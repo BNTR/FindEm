@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		3247C4FD20C1D888008B3593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247C4FC20C1D888008B3593 /* AppDelegate.swift */; };
-		3247C4FF20C1D888008B3593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247C4FE20C1D888008B3593 /* ViewController.swift */; };
-		3247C50220C1D888008B3593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3247C50020C1D888008B3593 /* Main.storyboard */; };
 		3247C50420C1D88B008B3593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3247C50320C1D88B008B3593 /* Assets.xcassets */; };
 		3247C50720C1D88B008B3593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3247C50520C1D88B008B3593 /* LaunchScreen.storyboard */; };
+		3247C51020C27944008B3593 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247C50F20C27944008B3593 /* Application.swift */; };
+		3247C51420C285E9008B3593 /* MissingHumansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247C51320C285E9008B3593 /* MissingHumansViewController.swift */; };
+		32DB4C3F20C70D4400D8C75B /* MissingHumansViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB4C3E20C70D4400D8C75B /* MissingHumansViewModel.swift */; };
+		32DB4C4120C70D6D00D8C75B /* MissingHumanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB4C4020C70D6D00D8C75B /* MissingHumanViewModel.swift */; };
+		32E5754820C2888800D23ACC /* MissingHumansViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E5754720C2888800D23ACC /* MissingHumansViewController.xib */; };
+		32E5754A20C289D300D23ACC /* MissingHumanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5754920C289D300D23ACC /* MissingHumanCell.swift */; };
+		32E5754C20C28A4100D23ACC /* MissingHumanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E5754B20C28A4100D23ACC /* MissingHumanCell.xib */; };
+		32E5754E20C28C4B00D23ACC /* MissingHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5754D20C28C4B00D23ACC /* MissingHuman.swift */; };
+		32E5755020C291FE00D23ACC /* MissingHumansRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5754F20C291FE00D23ACC /* MissingHumansRepository.swift */; };
+		32E5755320C293C900D23ACC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5755220C293C900D23ACC /* Networking.swift */; };
+		CB9D7E65496F4C002092A1F6 /* Pods_FindEm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B1F4F73E09D0EA5AB3F489 /* Pods_FindEm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05C9D7F4F195939E34D6501A /* Pods-FindEm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindEm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindEm/Pods-FindEm.debug.xcconfig"; sourceTree = "<group>"; };
+		0B40D911791F8BD6247CF654 /* Pods-FindEm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindEm.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindEm/Pods-FindEm.release.xcconfig"; sourceTree = "<group>"; };
 		3247C4F920C1D888008B3593 /* FindEm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindEm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3247C4FC20C1D888008B3593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3247C4FE20C1D888008B3593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3247C50120C1D888008B3593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3247C50320C1D88B008B3593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3247C50620C1D88B008B3593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3247C50820C1D88B008B3593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3247C50F20C27944008B3593 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		3247C51320C285E9008B3593 /* MissingHumansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingHumansViewController.swift; sourceTree = "<group>"; };
+		32DB4C3E20C70D4400D8C75B /* MissingHumansViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingHumansViewModel.swift; sourceTree = "<group>"; };
+		32DB4C4020C70D6D00D8C75B /* MissingHumanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingHumanViewModel.swift; sourceTree = "<group>"; };
+		32E5754720C2888800D23ACC /* MissingHumansViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissingHumansViewController.xib; sourceTree = "<group>"; };
+		32E5754920C289D300D23ACC /* MissingHumanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingHumanCell.swift; sourceTree = "<group>"; };
+		32E5754B20C28A4100D23ACC /* MissingHumanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissingHumanCell.xib; sourceTree = "<group>"; };
+		32E5754D20C28C4B00D23ACC /* MissingHuman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingHuman.swift; sourceTree = "<group>"; };
+		32E5754F20C291FE00D23ACC /* MissingHumansRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingHumansRepository.swift; sourceTree = "<group>"; };
+		32E5755220C293C900D23ACC /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		A9B1F4F73E09D0EA5AB3F489 /* Pods_FindEm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindEm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9D7E65496F4C002092A1F6 /* Pods_FindEm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				3247C4FB20C1D888008B3593 /* FindEm */,
 				3247C4FA20C1D888008B3593 /* Products */,
+				C34304F57ED09D19C3784B2E /* Pods */,
+				34F5D9F858F1D02A2EDF3919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,71 @@
 		3247C4FB20C1D888008B3593 /* FindEm */ = {
 			isa = PBXGroup;
 			children = (
-				3247C4FC20C1D888008B3593 /* AppDelegate.swift */,
-				3247C4FE20C1D888008B3593 /* ViewController.swift */,
-				3247C50020C1D888008B3593 /* Main.storyboard */,
+				32E5755120C293A900D23ACC /* Networking */,
+				3247C51220C284F3008B3593 /* Domain */,
+				3247C51120C284EA008B3593 /* Presentation */,
+				3247C50E20C27919008B3593 /* App */,
 				3247C50320C1D88B008B3593 /* Assets.xcassets */,
 				3247C50520C1D88B008B3593 /* LaunchScreen.storyboard */,
 				3247C50820C1D88B008B3593 /* Info.plist */,
 			);
 			path = FindEm;
+			sourceTree = "<group>";
+		};
+		3247C50E20C27919008B3593 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3247C50F20C27944008B3593 /* Application.swift */,
+				3247C4FC20C1D888008B3593 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3247C51120C284EA008B3593 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3247C51320C285E9008B3593 /* MissingHumansViewController.swift */,
+				32DB4C3E20C70D4400D8C75B /* MissingHumansViewModel.swift */,
+				32E5754720C2888800D23ACC /* MissingHumansViewController.xib */,
+				32E5754920C289D300D23ACC /* MissingHumanCell.swift */,
+				32DB4C4020C70D6D00D8C75B /* MissingHumanViewModel.swift */,
+				32E5754B20C28A4100D23ACC /* MissingHumanCell.xib */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3247C51220C284F3008B3593 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				32E5754D20C28C4B00D23ACC /* MissingHuman.swift */,
+				32E5754F20C291FE00D23ACC /* MissingHumansRepository.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		32E5755120C293A900D23ACC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				32E5755220C293C900D23ACC /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		34F5D9F858F1D02A2EDF3919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B1F4F73E09D0EA5AB3F489 /* Pods_FindEm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34304F57ED09D19C3784B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C9D7F4F195939E34D6501A /* Pods-FindEm.debug.xcconfig */,
+				0B40D911791F8BD6247CF654 /* Pods-FindEm.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3247C50B20C1D88B008B3593 /* Build configuration list for PBXNativeTarget "FindEm" */;
 			buildPhases = (
+				8E23A6EFFDC512F33B2833CB /* [CP] Check Pods Manifest.lock */,
 				3247C4F520C1D888008B3593 /* Sources */,
 				3247C4F620C1D888008B3593 /* Frameworks */,
 				3247C4F720C1D888008B3593 /* Resources */,
+				F7B5035074595D04A42D0FCC /* [CP] Embed Pods Frameworks */,
+				6D0A050A6CB50E4E43666C49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,35 +205,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5754C20C28A4100D23ACC /* MissingHumanCell.xib in Resources */,
 				3247C50720C1D88B008B3593 /* LaunchScreen.storyboard in Resources */,
+				32E5754820C2888800D23ACC /* MissingHumansViewController.xib in Resources */,
 				3247C50420C1D88B008B3593 /* Assets.xcassets in Resources */,
-				3247C50220C1D888008B3593 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D0A050A6CB50E4E43666C49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindEm/Pods-FindEm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E23A6EFFDC512F33B2833CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindEm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B5035074595D04A42D0FCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindEm/Pods-FindEm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindEm/Pods-FindEm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3247C4F520C1D888008B3593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3247C4FF20C1D888008B3593 /* ViewController.swift in Sources */,
+				32E5754A20C289D300D23ACC /* MissingHumanCell.swift in Sources */,
+				32DB4C3F20C70D4400D8C75B /* MissingHumansViewModel.swift in Sources */,
+				3247C51020C27944008B3593 /* Application.swift in Sources */,
+				32E5755020C291FE00D23ACC /* MissingHumansRepository.swift in Sources */,
 				3247C4FD20C1D888008B3593 /* AppDelegate.swift in Sources */,
+				3247C51420C285E9008B3593 /* MissingHumansViewController.swift in Sources */,
+				32E5754E20C28C4B00D23ACC /* MissingHuman.swift in Sources */,
+				32E5755320C293C900D23ACC /* Networking.swift in Sources */,
+				32DB4C4120C70D6D00D8C75B /* MissingHumanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3247C50020C1D888008B3593 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3247C50120C1D888008B3593 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3247C50520C1D88B008B3593 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,37 +423,39 @@
 		};
 		3247C50C20C1D88B008B3593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C9D7F4F195939E34D6501A /* Pods-FindEm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3G8Q3UTE4C;
+				DEVELOPMENT_TEAM = L2ENG933QG;
 				INFOPLIST_FILE = FindEm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viktorsokolov.FindEm.FindEm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viktorsokolov.FindEm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3247C50D20C1D88B008B3593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B40D911791F8BD6247CF654 /* Pods-FindEm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3G8Q3UTE4C;
+				DEVELOPMENT_TEAM = L2ENG933QG;
 				INFOPLIST_FILE = FindEm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viktorsokolov.FindEm.FindEm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viktorsokolov.FindEm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
